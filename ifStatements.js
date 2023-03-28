@@ -42,11 +42,13 @@ if (weather === "sunny") {
 // Experiment with manipulating the value held within numQuarters
 // to make sure both conditions can be achieved.
 
-var numQuarters = 0
+numQuarters = 1
 
+if (numQuarters > 2) {
 console.log("I have enough money for a gumball");
-console.log("I don't have enough money for a gumball");
-
+} else if (numQuarters < 2) {
+  console.log("I don't have enough money for a gumball");
+}
 
 // #####################
 // Using the variables defined below, write code that will tell you
@@ -62,6 +64,15 @@ console.log("I don't have enough money for a gumball");
 // Experiment with manipulating the value held within both variables
 // to make sure all above conditions output what you expect.
 
-var cupsOfFlour = 1;
+var cupsOfFlour = 2;
 var hasSauce = true;
+
+if (cupsOfFlour < 1 || hasSauce === false) {
+  console.log("I cannot make pizza");
+} else {
+  console.log("I can make pizza");
+}
+//I can make PIZZA! 
+
+
 
