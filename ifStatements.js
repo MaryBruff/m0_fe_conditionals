@@ -49,6 +49,7 @@ console.log("I have enough money for a gumball");
 } else if (numQuarters < 2) {
   console.log("I don't have enough money for a gumball");
 }
+// I don't have enougn money for a gumball.
 
 // #####################
 // Using the variables defined below, write code that will tell you
